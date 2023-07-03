@@ -1,4 +1,5 @@
 import { Controller,Get,Post,Put,Delete} from '@nestjs/common';
+import { CreateItemDto } from './dto/create-item.dto';
 
 @Controller('items')
 export class ItemsController{
