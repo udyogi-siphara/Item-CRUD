@@ -1,5 +1,11 @@
 import { Controller,Get} from '@nestjs/common';
 
 @Controller('items')
-export class ItemsController{}
+export class ItemsController{
+
+    @Get()
+    findAll(){
+        
+    }
+}
 
